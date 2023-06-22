@@ -1,0 +1,358 @@
+@font-face {
+    font-family: Vazir-Bold;
+    src: url("../fonts/vazir-font-v16.1.0/Vazir-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    margin-top: 40px;
+    /* background-color: green; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+i {
+    cursor: pointer;
+}
+
+li {
+    font-family: Vazir-Bold;
+    cursor: pointer;
+}
+
+.nav-icon-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    padding: 10px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.11);
+    outline: none;
+    text-align: right;
+}
+
+.search-img {
+    position: relative;
+    right: 28px;
+    top: 3px;
+}
+
+.site-icon {
+    width: 100px;
+    height: 40px;
+}
+
+.main-title-con  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-top: 30px;
+    /* background-color: green; */
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/clothes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Vazir-Bold;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 10px;
+    filter: contrast(-60%);
+    text-align: center;
+    width: 92%;
+    height: 92%;
+    /* background-color: red; */
+}
+
+.title {
+    color: white;
+}
+
+.title-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Vazir-Bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.title-btn:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+#arrow-left {
+    width: 20px;
+}
+
+.experience-main-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    /* background-color: green; */
+}
+
+.experience-con {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: Vazir-Bold;
+    width: 92%;
+    direction: rtl;
+    /* background-color: red; */
+}
+
+.experience-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: green; */
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.181);
+}
+
+#experience-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.experience-text {
+    margin-top: -15px;
+}
+
+.group-main-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.group-con {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: Vazir-Bold;
+    width: 92%;
+    direction: rtl;
+}
+
+.group-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#item-1 {
+    background-image: url("../images/spring-wardrobe-switch-top-view.jpg")
+}
+
+#item-2 {
+    background-image: url("../images/shirt-mockup-concept-with-plain-clothing.jpg");
+}
+
+#item-3 {
+    background-image: url("../images/beautiful-cute-brunette-model-casual-summer-clothes-with-no-makeup.jpg");
+}
+
+#item-4 {
+    background-image: url("../images/beautiful-knitted-clothes-neatly-folded-close-up-handmade-sweaters.jpg");
+}
+
+.item-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Vazir-Bold;
+    border-radius: 5px;
+    border: none;
+    width: 140px;
+    direction: rtl;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.offer-main-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Vazir-Bold;
+    margin-top: 60px;
+    /* background-color: red; */
+}
+
+.offer-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 92%;
+    border-radius: 15px;
+    direction: rtl;
+    background-color: rgb(48, 48, 48);
+}
+
+.offer-img {
+    width: 725px;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+}
+.offer-img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-title {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.email-main-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Vazir-Bold;
+    text-align: center;
+    direction: rtl;
+    margin-top: 50px;
+    /* background-color: green; */
+}
+
+.mail-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.i {
+    background-color: red;
+}
+
+.email-input-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+svg {
+    cursor: pointer;
+}
+
+#email-input {
+    font-family: Vazir-Bold;
+    border: none;
+    background: none;
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    text-align: right;
+}
+
+.input-btn {
+    font-family: Vazir-Bold;
+    width: 80px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.site-rule {
+    color: rgb(154, 154, 154);
+}
+
+a {
+    color: black;
+}
